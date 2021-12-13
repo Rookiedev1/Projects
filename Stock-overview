@@ -1,0 +1,74 @@
+<h2>AKTIEÖVERSIKT</h2>
+&nbsp;
+<div class="container8809">
+<div id="container88091" class="box8809 top8809">
+<div class="Jabra-stock-name">Senast betalt</div>
+<div class="Jabra-stock-name">Senast betalt</div>
+<div class="Jabra-stock-name">Senast betalt</div>
+<div class="Jabra-stock-name">Senast betalt</div>
+<div class="Jabra-stock-name">Senast betalt</div>
+<div class="Jabra-stock-name">Senast betalt</div>
+<div class="Jabra-stock-value">[mf-widget widget="stock-chart"]
+[mf-widget widget="stock-table"]</div>
+</div>
+<div id="container880914" class="box8809 top8809">
+<div class="Jabra-stock-name">Market Cap</div>
+<div class="Jabra-stock-value">[mf-widget widget="stock-chart"]
+[mf-widget widget="stock-table"]</div>
+<div class="Jabra-stock-label">2021-12-03</div>
+</div>
+<div class="box8809 top8809">
+<div class="Jabra-stock-name">Nästa rapport</div>
+<div class="Jabra-stock-value">23:e februari</div>
+</div>
+<div class="box8809 bottom8809">
+<div class="Jabra-stock-name">Nettoomsättning</div>
+<div class="Jabra-stock-value">2 358,2 MSEK</div>
+<div class="Jabra-stock-label">2020</div>
+</div>
+<div class="box8809 bottom8809">
+<div class="Jabra-stock-name">Bruttomarginal</div>
+<div class="Jabra-stock-value">22%</div>
+<div class="Jabra-stock-label">2020</div>
+</div>
+<div class="box8809 bottom8809">
+<div class="Jabra-stock-name">Rörelsemarginal (Ebit)</div>
+<div class="Jabra-stock-value">3.7%</div>
+<div class="Jabra-stock-label">2020</div>
+</div>
+</div>
+&nbsp;
+
+
+<script>
+    (function(widgets) {
+        var url = "https://widget.datablocks.se/api/rose";
+        if (!window._MF) {
+            var b = document.createElement("script");
+            b.type = "text/javascript";
+            b.async = true;
+            b.src = url + "/assets/js/loader-v4.js";
+            document.getElementsByTagName("body")[0].appendChild(b);
+		    }
+		    window._MF = window._MF || {
+            data: [],
+            url: url,
+            ready: !!0,
+            render: function() { window._MF.ready = !0 },
+            push: function(w) { window._MF.data.push(w) }
+		    };	
+		    window._MF.push(widgets);
+    })([{
+        query:"#container88091"
+        ,widget: "stock-table"
+        ,locale: "sv"
+        ,token: "fed1d854-a9d3-45c1-fb"
+    },
+        {
+        query:"#container880914"
+        ,widget: "stock-table"
+        ,locale: "sv"
+        ,token: "46f9be2c-df48-4141"
+    }],
+    );
+</script>
