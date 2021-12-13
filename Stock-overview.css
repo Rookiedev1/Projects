@@ -1,0 +1,64 @@
+.container8809{
+    display: grid;
+    grid-template: repeat(2, 20rem) / repeat(3, 30rem);
+
+    margin-bottom: 1em;
+    grid-gap: 1em;
+    text-align: center
+}
+
+
+.top8809{
+    display: flex;
+    flex-direction: column;
+    color: #333;
+    background-color: #f2f2f2;
+    padding: 3rem;
+	  justify-content: center;
+}
+
+.bottom8809{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    background-color: #1F2F5A;
+    padding: 3rem;
+	  justify-content: center;
+
+}
+
+.Jabra-stock-value {
+    font-size: xx-large;
+    margin-bottom: 0.6rem;
+	  font-family: 'Franklin Gothic Medium';
+}
+
+.Jabra-stock-name{
+    font-size: medium;
+    margin-bottom: 0.6rem;
+}
+
+.Jabra-stock-label {
+    font-size: medium;
+    margin-bottom: 0.6rem;
+
+}
+
+
+
+.latest-price{
+	    font-size: xx-large;
+	    margin-bottom: 0.6rem;
+	    font-family: 'Franklin Gothic Medium';
+}
+
+.mcap {
+		  font-size: xx-large;
+	    margin-bottom: 0.6rem;
+	    font-family: 'Franklin Gothic Medium';
+}
+
+.latest-date {
+	  font-size: medium;
+    margin-bottom: 0.6rem;
+}
